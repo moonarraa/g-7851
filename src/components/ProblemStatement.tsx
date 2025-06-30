@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { X, Check, PhoneCall, Mail, MessageSquare, Users, Zap, BarChart3 } from 'lucide-react';
+import { X, Check, FileText, BarChart, Clock, TrendingUp, Zap, Brain } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const ProblemStatement = () => {
@@ -35,22 +35,22 @@ const ProblemStatement = () => {
           className="max-w-3xl mx-auto text-center mb-12"
         >
           <motion.div variants={itemVariants} className="section-tag">
-            Why Traditional Outbound Is Dead
+            Why Manual Survey Analysis Is Broken
           </motion.div>
           
           <motion.h2 
             variants={itemVariants}
             className="heading-lg text-convrt-dark-blue mb-6"
           >
-            Cold Outreach Doesn't Work Anymore. <br />
-            <span className="text-convrt-purple font-extrabold">AI Organic Outbound</span> Does.
+            Manual Analysis Takes Forever. <br />
+            <span className="text-convrt-purple font-extrabold">AI Survey Analysis</span> Takes Minutes.
           </motion.h2>
           
           <motion.p 
             variants={itemVariants}
             className="text-convrt-dark-blue/80 text-lg mb-8 max-w-2xl mx-auto"
           >
-            The days of cold calls and emails are over. Today's buyers expect personalized engagement from people they trust. Convrt.ai puts you exactly where your buyers make decisions.
+            Stop spending weeks analyzing survey data manually. Our AI instantly processes thousands of responses, identifies patterns, and delivers insights that drive real business decisions.
           </motion.p>
         </motion.div>
         
@@ -61,7 +61,7 @@ const ProblemStatement = () => {
           variants={containerVariants}
           className="grid md:grid-cols-2 gap-10"
         >
-          {/* Traditional Cold Outbound - simplified box */}
+          {/* Manual Survey Analysis - simplified box */}
           <motion.div 
             variants={itemVariants}
             whileHover={{ y: -5 }}
@@ -72,7 +72,7 @@ const ProblemStatement = () => {
             </div>
             
             <h3 className="heading-sm text-convrt-dark-blue mb-8 flex items-center">
-              Traditional Cold Outbound
+              Manual Survey Analysis
             </h3>
             
             <ul className="space-y-6">
@@ -81,8 +81,8 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">1% cold email response rates</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Millions of emails sent, almost all ignored</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Weeks to analyze large datasets</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Manual coding and categorization takes forever</p>
                 </div>
               </li>
               
@@ -91,8 +91,8 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">80% of calls screened out</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Decision makers don't take cold calls</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Miss hidden patterns and insights</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Human analysis can't process thousands of responses effectively</p>
                 </div>
               </li>
               
@@ -101,33 +101,33 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">No relationship before outreach</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Cold outreach feels impersonal and salesy</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Expensive and resource-intensive</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Requires specialized analysts and countless hours</p>
                 </div>
               </li>
             </ul>
             
             <div className="mt-12 grid grid-cols-3 gap-4">
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
-                <PhoneCall className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Cold Calls</div>
+                <FileText className="w-8 h-8 text-[#EA384C] mb-2" />
+                <div className="text-sm text-center text-[#EA384C] font-medium">Manual Coding</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
-                <Mail className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Mass Emails</div>
+                <Clock className="w-8 h-8 text-[#EA384C] mb-2" />
+                <div className="text-sm text-center text-[#EA384C] font-medium">Slow Process</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
-                <MessageSquare className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Generic Messages</div>
+                <BarChart className="w-8 h-8 text-[#EA384C] mb-2" />
+                <div className="text-sm text-center text-[#EA384C] font-medium">Limited Insights</div>
               </div>
             </div>
             
             <div className="absolute -bottom-1 left-0 right-0 h-1 bg-[#EA384C]"></div>
           </motion.div>
           
-          {/* AI Organic Outbound - simplified box */}
+          {/* AI Survey Analysis - simplified box */}
           <motion.div 
             variants={itemVariants}
             whileHover={{ y: -5 }}
@@ -138,8 +138,8 @@ const ProblemStatement = () => {
             </div>
             
             <h3 className="heading-sm text-convrt-dark-blue mb-8 flex items-center">
-              AI Organic Outbound
-              <span className="ml-2 px-2 py-0.5 text-xs font-medium bg-convrt-purple/10 text-convrt-purple rounded-full">Convrt.ai</span>
+              AI Survey Analysis
+              <span className="ml-2 px-2 py-0.5 text-xs font-medium bg-convrt-purple/10 text-convrt-purple rounded-full">Survey AI</span>
             </h3>
             
             <ul className="space-y-6">
@@ -148,8 +148,8 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">15x higher conversion rates</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Build trust before you reach out</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Instant analysis in minutes</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Process thousands of responses instantly</p>
                 </div>
               </li>
               
@@ -158,8 +158,8 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Key touchpoints and discussions</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Tracks the entire buyer's journey</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Uncover hidden patterns</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">AI finds insights humans miss in complex data</p>
                 </div>
               </li>
               
@@ -168,32 +168,32 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Fully automated growth hacking</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Enterprise-grade AI engagement</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Automated insights and reports</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Generate professional reports automatically</p>
                 </div>
               </li>
             </ul>
             
             <div className="mt-12 grid grid-cols-3 gap-4">
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
-                <Users className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">Engagement</div>
+                <Brain className="w-8 h-8 text-convrt-purple mb-2" />
+                <div className="text-sm text-center text-convrt-purple font-medium">AI Analysis</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
                 <Zap className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">Trust Building</div>
+                <div className="text-sm text-center text-convrt-purple font-medium">Instant Results</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
-                <BarChart3 className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">Win More Deals</div>
+                <TrendingUp className="w-8 h-8 text-convrt-purple mb-2" />
+                <div className="text-sm text-center text-convrt-purple font-medium">Deep Insights</div>
               </div>
             </div>
             
             <div className="absolute -bottom-1 left-0 right-0 h-1 bg-convrt-purple"></div>
           </motion.div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

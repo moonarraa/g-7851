@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Target, Users, LineChart } from 'lucide-react';
+import { Upload, Brain, BarChart } from 'lucide-react';
 import StepContent from './how-it-works/StepContent';
 import { motion } from 'framer-motion';
 
@@ -11,29 +11,29 @@ const HowItWorks = () => {
   const steps = [
     {
       id: 1,
-      icon: <Target className="w-4 h-4" />,
-      title: "AI Identifies Where Your Buyers Engage",
-      description: "Our AI scans social media to find where your target audience is most active, identifying the exact channels, topics, and content they engage with.",
-      highlightText: "AI identifies:",
-      highlightDetails: "Relevant conversations, active communities, and engagement opportunities",
+      icon: <Upload className="w-4 h-4" />,
+      title: "Upload Your Survey Data",
+      description: "Simply upload your survey responses in any format - CSV, Excel, or directly from popular survey platforms like SurveyMonkey, Typeform, or Google Forms.",
+      highlightText: "Supports:",
+      highlightDetails: "CSV files, Excel spreadsheets, and direct integrations with major survey platforms",
       gifUrl: "/lovable-uploads/50d7bc89-98fd-49a5-b67f-94230c5d3ca5.png"
     },
     {
       id: 2,
-      icon: <Users className="w-4 h-4" />,
-      title: "AI Auto-Warms & Builds Trust",
-      description: "Convrt creates meaningful touchpoints that position you as a trusted advisor by engaging with prospects' content and contributing value.",
-      highlightText: "AI automates:",
-      highlightDetails: "Targeted comments, relevant reactions, and personalized interactions",
+      icon: <Brain className="w-4 h-4" />,
+      title: "AI Analyzes & Categorizes",
+      description: "Our advanced AI processes your data, automatically categorizing responses, identifying themes, and detecting sentiment patterns across all your survey questions.",
+      highlightText: "AI processes:",
+      highlightDetails: "Text analysis, sentiment detection, theme identification, and statistical correlations",
       gifUrl: "https://api.microlink.io?url=https%3A%2F%2Fgiphy.com%2Fgifs%2Frevolutioncomedy-handshake-revolutioncomedy-icommitcombustion-kFHbqSdogIS0qtX6Pf&embed=true&screenshot=true&meta=false"
     },
     {
       id: 3,
-      icon: <LineChart className="w-4 h-4" />,
-      title: "AI Converts Warm Leads Into Pipeline",
-      description: "With pre-established trust, your outreach achieves 15x higher conversion rates, turning social connections into qualified leads and deals.",
-      highlightText: "AI delivers:",
-      highlightDetails: "Warmed leads, engagement analytics, and conversion opportunities",
+      icon: <BarChart className="w-4 h-4" />,
+      title: "Get Actionable Insights",
+      description: "Receive comprehensive reports with visual charts, key findings, recommendations, and exportable summaries that drive your business decisions forward.",
+      highlightText: "You get:",
+      highlightDetails: "Visual dashboards, detailed reports, actionable recommendations, and exportable insights",
       gifUrl: "https://api.microlink.io?url=https%3A%2F%2Fgiphy.com%2Fgifs%2Fchart-jtECu4TAPnhbGv2iwx&embed=true&screenshot=true&meta=false"
     }
   ];
@@ -47,13 +47,13 @@ const HowItWorks = () => {
       <div className="container-section py-4">
         <div className="max-w-3xl mx-auto text-center mb-6">
           <div className="section-tag">
-            From Ignored to Trusted
+            From Data to Insights
           </div>
           <h2 className="heading-lg text-convrt-dark-blue mb-4">
-            How <span className="gradient-text">Convrt.ai</span> Works in 3 Steps
+            How <span className="gradient-text">Survey AI</span> Works in 3 Simple Steps
           </h2>
           <p className="text-convrt-dark-blue/80 text-lg max-w-2xl mx-auto">
-            Our AI-driven platform automates social engagement for your sales and GTM teams, transforming cold outreach into warm connections.
+            Our AI-powered platform transforms your raw survey data into meaningful insights and actionable recommendations in minutes, not weeks.
           </p>
         </div>
         

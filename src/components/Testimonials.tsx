@@ -5,29 +5,29 @@ import { motion } from 'framer-motion';
 const testimonials = [
   {
     id: 1,
-    quote: "Alice allowed us to scale outbound efforts without sacrificing personalization. It's been a crucial multiplier for our team.",
-    name: "Matthew Lenhart",
-    title: "Senior Manager, Sales Ops & Strategy at Otter.ai",
-    company: "Otter.ai",
-    logo: "otter",
+    quote: "Survey AI reduced our analysis time from weeks to minutes. The insights we discovered drove a 30% improvement in customer satisfaction.",
+    name: "Sarah Johnson",
+    title: "Head of Customer Research at TechFlow",
+    company: "TechFlow",
+    logo: "techflow",
     bgColor: "bg-[#efeaf5]",
   },
   {
     id: 2,
-    quote: "Mike allows us to retarget hundreds of thousands of old leads. It's like unlocking a new opportunity we never thought was possible.",
-    name: "Sales Team",
-    title: "Connecteam",
-    company: "Connecteam",
-    logo: "connecteam",
+    quote: "The AI uncovered patterns in our employee feedback that we completely missed. It's like having a data scientist on demand.",
+    name: "Mike Chen",
+    title: "HR Director",
+    company: "InnovateCorp",
+    logo: "innovatecorp",
     bgColor: "bg-[#fde7dc]",
   },
   {
     id: 3,
-    quote: "With Mike, we could reach customers in languages we couldn't otherwise support.",
-    name: "Growth Marketing",
-    title: "Spectinga",
-    company: "Spectinga",
-    logo: "spectinga",
+    quote: "Survey AI's sentiment analysis helped us identify emerging trends in our market research months before our competitors.",
+    name: "Emma Rodriguez",
+    title: "Market Research Lead",
+    company: "DataInsights",
+    logo: "datainsights",
     bgColor: "bg-[#e9e9e9]",
   }
 ];
@@ -35,23 +35,23 @@ const testimonials = [
 const stats = [
   {
     id: 1,
-    value: "$500k",
-    description: "on hiring costs saved",
-    company: "Otter.ai",
+    value: "10,000+",
+    description: "surveys analyzed",
+    company: "TechFlow",
     bgColor: "bg-[#efeaf5]",
   },
   {
     id: 2,
-    value: "Handshake",
+    value: "InnovateCorp",
     description: "",
-    company: "Handshake",
+    company: "InnovateCorp",
     bgColor: "bg-white",
   },
   {
     id: 3,
-    value: "Sumup",
+    value: "DataInsights",
     description: "",
-    company: "Sumup",
+    company: "DataInsights",
     bgColor: "bg-white",
   }
 ];
@@ -67,7 +67,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="mb-8 text-center"
         >
-          <h2 className="text-3xl font-bold mb-6">Trusted by industry leaders</h2>
+          <h2 className="text-3xl font-bold mb-6">Trusted by research teams worldwide</h2>
         </motion.div>
 
         <div className="grid grid-cols-12 gap-4">
@@ -86,13 +86,13 @@ const Testimonials = () => {
               </div>
               <div className="mt-auto pt-6">
                 <div className="font-bold text-lg">
-                  <span className="font-black">OI</span>•<span className="font-black">I</span> Otter.ai
+                  <span className="font-black">TF</span> TechFlow
                 </div>
               </div>
             </div>
           </motion.div>
 
-          {/* Handshake box */}
+          {/* InnovateCorp box */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -101,7 +101,7 @@ const Testimonials = () => {
             className="col-span-12 md:col-span-4 lg:col-span-3 rounded-xl overflow-hidden border border-gray-100"
           >
             <div className="h-full flex items-center justify-center p-6">
-              <div className="font-black text-2xl italic">Handshake</div>
+              <div className="font-black text-2xl">InnovateCorp</div>
             </div>
           </motion.div>
 
@@ -137,12 +137,12 @@ const Testimonials = () => {
                 "{testimonials[1].quote}"
               </div>
               <div className="mt-auto">
-                <div className="font-bold text-lg">connecteam</div>
+                <div className="font-bold text-lg">{testimonials[1].company}</div>
               </div>
             </div>
           </motion.div>
 
-          {/* Sumup box */}
+          {/* DataInsights box */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -152,7 +152,7 @@ const Testimonials = () => {
           >
             <div className="h-full flex items-center justify-center p-6">
               <div className="font-black text-xl">
-                <span className="inline-block bg-black text-white px-1 py-0.5 rounded">∫</span> sumup°
+                <span className="inline-block bg-black text-white px-1 py-0.5 rounded">DI</span> DataInsights
               </div>
             </div>
           </motion.div>
@@ -171,7 +171,7 @@ const Testimonials = () => {
               </div>
               <div className="mt-auto">
                 <div className="font-bold flex items-center">
-                  <span className="inline-block mr-1">⊙</span> spectinga
+                  <span className="inline-block mr-1">📊</span> {testimonials[2].company}
                 </div>
               </div>
             </div>

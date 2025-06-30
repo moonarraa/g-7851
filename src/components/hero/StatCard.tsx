@@ -22,7 +22,7 @@ const StatCard: React.FC<StatCardProps> = ({ value, description, icon }) => {
           {description}
         </div>
         <div className="text-convrt-dark-blue/60 text-sm mt-2 relative z-10 leading-relaxed">
-          Turn cold prospects into warm leads through AI-driven social touchpoints
+          Transform survey responses into powerful insights with AI-driven analysis and visualization
         </div>
       </div>
     </div>

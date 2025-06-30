@@ -69,25 +69,25 @@ const Index = () => {
                 >
                   <div className="inline-flex items-center px-4 py-2 rounded-full bg-convrt-purple/20 text-convrt-purple mb-6">
                     <Sparkles className="w-4 h-4 mr-2" />
-                    <span className="text-sm font-medium font-inter tracking-wide">Start Your AI Journey Today</span>
+                    <span className="text-sm font-medium font-inter tracking-wide">Start Your AI Analysis Today</span>
                   </div>
                   
                   <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                    Ready to Move from 
-                    <span className="text-[#EA384C] font-extrabold"> Ignored </span> 
-                    to 
-                    <span className="text-convrt-purple font-extrabold"> Influential</span>?
+                    Ready to Transform Your 
+                    <span className="text-[#EA384C] font-extrabold"> Survey Data </span> 
+                    into 
+                    <span className="text-convrt-purple font-extrabold"> Powerful Insights</span>?
                   </h2>
                   
                   <p className="text-lg text-gray-100 mb-8">
-                    Join hundreds of sales teams who have transformed their outbound with AI-driven social selling.
+                    Join thousands of researchers and businesses who have revolutionized their data analysis with AI-powered survey insights.
                   </p>
                   
                   <div className="flex flex-col space-y-3 mb-8">
                     {[
-                      "15x higher response rates than cold outreach",
-                      "Build trust before your first message",
-                      "AI-driven personalization at scale"
+                      "95% accuracy in pattern detection",
+                      "10x faster than manual analysis",
+                      "Instant actionable insights and reports"
                     ].map((benefit, i) => (
                       <div key={i} className="flex items-center">
                         <Check className="w-5 h-5 text-convrt-purple mr-2 flex-shrink-0" />
@@ -103,7 +103,7 @@ const Index = () => {
                     viewport={{ once: true }}
                     className="button-primary flex items-center text-lg px-8 py-4 shadow-lg shadow-convrt-purple/10 hover:shadow-xl hover:shadow-convrt-purple/20 rounded-full group"
                   >
-                    Start Free – No Credit Card Needed
+                    Try Survey AI Free – No Credit Card Needed
                     <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                   </motion.button>
                 </motion.div>
@@ -123,8 +123,8 @@ const Index = () => {
               viewport={{ once: true }}
               className="mb-6 md:mb-0"
             >
-              <h3 className="text-2xl font-bold text-convrt-dark-blue">Convrt.ai</h3>
-              <p className="text-sm text-gray-600 mt-2">© {new Date().getFullYear()} Convrt.ai. All rights reserved.</p>
+              <h3 className="text-2xl font-bold text-convrt-dark-blue">Survey AI</h3>
+              <p className="text-sm text-gray-600 mt-2">© {new Date().getFullYear()} Survey AI. All rights reserved.</p>
             </motion.div>
             
             <motion.div 
