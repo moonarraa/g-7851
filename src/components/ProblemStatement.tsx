@@ -193,7 +193,7 @@ const ProblemStatement = () => {
             
             <div className="absolute -bottom-1 left-0 right-0 h-1 bg-convrt-purple"></div>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
