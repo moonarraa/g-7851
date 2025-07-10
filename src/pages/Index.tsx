@@ -73,21 +73,21 @@ const Index = () => {
                   </div>
                   
                   <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                    Ready to Transform Your 
-                    <span className="text-[#EA384C] font-extrabold"> Survey Data </span> 
-                    into 
-                    <span className="text-convrt-purple font-extrabold"> Powerful Insights</span>?
+                    Ready to Create 
+                    <span className="text-[#EA384C] font-extrabold"> Smarter Surveys </span> 
+                    with 
+                    <span className="text-convrt-purple font-extrabold"> AI Power</span>?
                   </h2>
                   
                   <p className="text-lg text-gray-100 mb-8">
-                    Join thousands of researchers and businesses who have revolutionized their data analysis with AI-powered survey insights.
+                    Join thousands of businesses who have revolutionized their feedback collection with AI-powered survey creation and real-time insights.
                   </p>
                   
                   <div className="flex flex-col space-y-3 mb-8">
                     {[
-                      "95% accuracy in pattern detection",
-                      "10x faster than manual analysis",
-                      "Instant actionable insights and reports"
+                      "AI generates surveys in minutes, not hours",
+                      "Multi-channel distribution (Telegram, web, API)",
+                      "Real-time analytics and automated insights"
                     ].map((benefit, i) => (
                       <div key={i} className="flex items-center">
                         <Check className="w-5 h-5 text-convrt-purple mr-2 flex-shrink-0" />

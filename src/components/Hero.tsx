@@ -47,21 +47,21 @@ const Hero = () => {
             className="inline-flex items-center px-4 py-2 rounded-full bg-convrt-purple/10 text-convrt-purple mb-6"
           >
             <Zap className="w-4 h-4 mr-2" />
-            <span className="text-sm font-medium font-inter tracking-wide">AI-Powered Survey Analysis Platform</span>
+            <span className="text-sm font-medium font-inter tracking-wide">Complete AI-Powered Survey Platform</span>
           </motion.div>
           
           <motion.h1 
             variants={itemVariants}
             className="font-inter font-bold text-4xl md:text-5xl lg:text-7xl tracking-tight max-w-4xl mx-auto mb-6 text-convrt-dark-blue leading-[1.1]"
           >
-            Transform <span className="text-[#EA384C] font-extrabold">Raw Data</span> into <span className="text-[#6936F5] font-extrabold">Actionable Insights</span>
+            Create <span className="text-[#EA384C] font-extrabold">Smart Surveys</span> with <span className="text-[#6936F5] font-extrabold">AI Power</span>
           </motion.h1>
           
           <motion.p 
             variants={itemVariants}
             className="font-inter text-xl text-convrt-dark-blue/80 max-w-3xl mx-auto mb-8 leading-relaxed"
           >
-            AI that analyzes your survey responses instantly, uncovering patterns and insights you never knew existed
+            The complete survey platform that uses AI to create engaging surveys, collect responses in real-time, and deliver automated insights
           </motion.p>
           
           <motion.div 

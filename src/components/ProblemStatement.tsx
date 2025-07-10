@@ -35,22 +35,22 @@ const ProblemStatement = () => {
           className="max-w-3xl mx-auto text-center mb-12"
         >
           <motion.div variants={itemVariants} className="section-tag">
-            Why Manual Survey Analysis Is Broken
+            Why Traditional Survey Tools Fall Short
           </motion.div>
           
           <motion.h2 
             variants={itemVariants}
             className="heading-lg text-convrt-dark-blue mb-6"
           >
-            Manual Analysis Takes Forever. <br />
-            <span className="text-convrt-purple font-extrabold">AI Survey Analysis</span> Takes Minutes.
+            Creating Surveys Shouldn't Take Days. <br />
+            <span className="text-convrt-purple font-extrabold">AI Survey Creation</span> Takes Minutes.
           </motion.h2>
           
           <motion.p 
             variants={itemVariants}
             className="text-convrt-dark-blue/80 text-lg mb-8 max-w-2xl mx-auto"
           >
-            Stop spending weeks analyzing survey data manually. Our AI instantly processes thousands of responses, identifies patterns, and delivers insights that drive real business decisions.
+            Stop struggling with complex survey builders and manual analysis. Our AI creates engaging surveys, collects responses across multiple channels, and delivers real-time insights automatically.
           </motion.p>
         </motion.div>
         
@@ -72,7 +72,7 @@ const ProblemStatement = () => {
             </div>
             
             <h3 className="heading-sm text-convrt-dark-blue mb-8 flex items-center">
-              Manual Survey Analysis
+              Traditional Survey Tools
             </h3>
             
             <ul className="space-y-6">
@@ -81,8 +81,8 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Weeks to analyze large datasets</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Manual coding and categorization takes forever</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Complex survey creation process</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Hours spent designing questions and logic flows</p>
                 </div>
               </li>
               
@@ -91,8 +91,8 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Miss hidden patterns and insights</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Human analysis can't process thousands of responses effectively</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Limited distribution channels</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Stuck with basic email links and embedded forms</p>
                 </div>
               </li>
               
@@ -101,8 +101,8 @@ const ProblemStatement = () => {
                   <X className="w-4 h-4 text-[#EA384C]" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Expensive and resource-intensive</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Requires specialized analysts and countless hours</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Manual analysis and reporting</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Wait days for insights from collected responses</p>
                 </div>
               </li>
             </ul>
@@ -110,17 +110,17 @@ const ProblemStatement = () => {
             <div className="mt-12 grid grid-cols-3 gap-4">
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
                 <FileText className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Manual Coding</div>
+                <div className="text-sm text-center text-[#EA384C] font-medium">Complex Setup</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
                 <Clock className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Slow Process</div>
+                <div className="text-sm text-center text-[#EA384C] font-medium">Delayed Results</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-red-50 rounded-xl p-3">
                 <BarChart className="w-8 h-8 text-[#EA384C] mb-2" />
-                <div className="text-sm text-center text-[#EA384C] font-medium">Limited Insights</div>
+                <div className="text-sm text-center text-[#EA384C] font-medium">Manual Work</div>
               </div>
             </div>
             
@@ -138,8 +138,8 @@ const ProblemStatement = () => {
             </div>
             
             <h3 className="heading-sm text-convrt-dark-blue mb-8 flex items-center">
-              AI Survey Analysis
-              <span className="ml-2 px-2 py-0.5 text-xs font-medium bg-convrt-purple/10 text-convrt-purple rounded-full">Survey AI</span>
+              Survey AI Platform
+              <span className="ml-2 px-2 py-0.5 text-xs font-medium bg-convrt-purple/10 text-convrt-purple rounded-full">Complete Solution</span>
             </h3>
             
             <ul className="space-y-6">
@@ -148,8 +148,8 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Instant analysis in minutes</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Process thousands of responses instantly</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">AI-generated surveys in minutes</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Create professional surveys with smart question suggestions</p>
                 </div>
               </li>
               
@@ -158,8 +158,8 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Uncover hidden patterns</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">AI finds insights humans miss in complex data</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Multi-channel distribution</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Deploy via Telegram, web widgets, and custom integrations</p>
                 </div>
               </li>
               
@@ -168,8 +168,8 @@ const ProblemStatement = () => {
                   <Check className="w-4 h-4 text-convrt-purple" />
                 </div>
                 <div>
-                  <p className="font-semibold text-lg text-convrt-dark-blue">Automated insights and reports</p>
-                  <p className="text-convrt-dark-blue/70 mt-1">Generate professional reports automatically</p>
+                  <p className="font-semibold text-lg text-convrt-dark-blue">Real-time insights and collaboration</p>
+                  <p className="text-convrt-dark-blue/70 mt-1">Instant analytics with team sharing and automated reports</p>
                 </div>
               </li>
             </ul>
@@ -177,17 +177,17 @@ const ProblemStatement = () => {
             <div className="mt-12 grid grid-cols-3 gap-4">
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
                 <Brain className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">AI Analysis</div>
+                <div className="text-sm text-center text-convrt-purple font-medium">AI Creation</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
                 <Zap className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">Instant Results</div>
+                <div className="text-sm text-center text-convrt-purple font-medium">Real-Time</div>
               </div>
               
               <div className="aspect-square flex flex-col items-center justify-center bg-convrt-purple/5 rounded-xl p-3">
                 <TrendingUp className="w-8 h-8 text-convrt-purple mb-2" />
-                <div className="text-sm text-center text-convrt-purple font-medium">Deep Insights</div>
+                <div className="text-sm text-center text-convrt-purple font-medium">Auto Insights</div>
               </div>
             </div>
             

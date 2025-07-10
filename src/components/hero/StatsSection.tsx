@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, Clock, Award } from 'lucide-react';
+import { Zap, Users, Globe } from 'lucide-react';
 import StatCard from './StatCard';
 
 interface StatsSectionProps {
@@ -40,25 +40,25 @@ const StatsSection: React.FC<StatsSectionProps> = ({ statsRef }) => {
     >
       <motion.div variants={itemVariants}>
         <StatCard 
-          value="95%" 
-          description="Accuracy in Pattern Detection" 
-          icon={<TrendingUp className="w-8 h-8" />} 
+          value="2 Min" 
+          description="AI Survey Creation Time" 
+          icon={<Zap className="w-8 h-8" />} 
         />
       </motion.div>
       
       <motion.div variants={itemVariants}>
         <StatCard 
-          value="5 Min" 
-          description="Average Analysis Time" 
-          icon={<Clock className="w-8 h-8" />} 
+          value="10+" 
+          description="Distribution Channels" 
+          icon={<Globe className="w-8 h-8" />} 
         />
       </motion.div>
       
       <motion.div variants={itemVariants}>
         <StatCard 
-          value="10x" 
-          description="Faster Than Manual Analysis" 
-          icon={<Award className="w-8 h-8" />} 
+          value="24/7" 
+          description="Real-Time Response Collection" 
+          icon={<Users className="w-8 h-8" />} 
         />
       </motion.div>
     </motion.div>

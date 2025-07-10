@@ -11,29 +11,29 @@ const HowItWorks = () => {
   const steps = [
     {
       id: 1,
-      icon: <Upload className="w-4 h-4" />,
-      title: "Upload Your Survey Data",
-      description: "Simply upload your survey responses in any format - CSV, Excel, or directly from popular survey platforms like SurveyMonkey, Typeform, or Google Forms.",
-      highlightText: "Supports:",
-      highlightDetails: "CSV files, Excel spreadsheets, and direct integrations with major survey platforms",
+      icon: <Brain className="w-4 h-4" />,
+      title: "Create with AI",
+      description: "Tell our AI what you want to learn and it instantly generates professional surveys with smart question suggestions, logic flows, and optimal formatting.",
+      highlightText: "AI creates:",
+      highlightDetails: "Survey questions, logic flows, response options, and professional formatting",
       gifUrl: "/lovable-uploads/50d7bc89-98fd-49a5-b67f-94230c5d3ca5.png"
     },
     {
       id: 2,
-      icon: <Brain className="w-4 h-4" />,
-      title: "AI Analyzes & Categorizes",
-      description: "Our advanced AI processes your data, automatically categorizing responses, identifying themes, and detecting sentiment patterns across all your survey questions.",
-      highlightText: "AI processes:",
-      highlightDetails: "Text analysis, sentiment detection, theme identification, and statistical correlations",
+      icon: <Upload className="w-4 h-4" />,
+      title: "Distribute Everywhere",
+      description: "Deploy your surveys across multiple channels - Telegram bots, web widgets, direct links, and custom integrations. Collect responses in real-time from any platform.",
+      highlightText: "Deploy via:",
+      highlightDetails: "Telegram bots, web widgets, direct links, email campaigns, and API integrations",
       gifUrl: "https://api.microlink.io?url=https%3A%2F%2Fgiphy.com%2Fgifs%2Frevolutioncomedy-handshake-revolutioncomedy-icommitcombustion-kFHbqSdogIS0qtX6Pf&embed=true&screenshot=true&meta=false"
     },
     {
       id: 3,
       icon: <BarChart className="w-4 h-4" />,
-      title: "Get Actionable Insights",
-      description: "Receive comprehensive reports with visual charts, key findings, recommendations, and exportable summaries that drive your business decisions forward.",
-      highlightText: "You get:",
-      highlightDetails: "Visual dashboards, detailed reports, actionable recommendations, and exportable insights",
+      title: "Get Real-Time Insights",
+      description: "Watch responses flow in automatically as AI analyzes sentiment, identifies trends, and generates actionable insights. Share reports with your team instantly.",
+      highlightText: "AI delivers:",
+      highlightDetails: "Sentiment analysis, trend identification, automated reports, and team collaboration tools",
       gifUrl: "https://api.microlink.io?url=https%3A%2F%2Fgiphy.com%2Fgifs%2Fchart-jtECu4TAPnhbGv2iwx&embed=true&screenshot=true&meta=false"
     }
   ];
@@ -53,7 +53,7 @@ const HowItWorks = () => {
             How <span className="gradient-text">Survey AI</span> Works in 3 Simple Steps
           </h2>
           <p className="text-convrt-dark-blue/80 text-lg max-w-2xl mx-auto">
-            Our AI-powered platform transforms your raw survey data into meaningful insights and actionable recommendations in minutes, not weeks.
+            The complete survey lifecycle - from AI-powered creation to real-time insights - all in one intelligent platform.
           </p>
         </div>
         
